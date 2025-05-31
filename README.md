@@ -1,2 +1,3 @@
 # Chatbot
-A simple rule-based NLP chatbot using NLTK that responds to user input with predefined replies based on regex pattern matching.
+
+This program implements a basic rule-based chatbot using the Natural Language Toolkit (NLTK). It defines a set of regular expression patterns paired with appropriate responses, allowing the chatbot to recognize specific inputs like greetings, questions about its name, or general help requests. When the user types a message, the chatbot matches the input against these patterns and returns a corresponding response. If no pattern matches, it gives a generic fallback reply. The program uses NLTK’s built-in Chat and reflections utilities and includes basic NLP elements like tokenization and stopword downloads, though they are not actively used in this version.
